@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vowel Counter</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!--User Interface-->
+    <div class="box-container">
+        <!--Vowel Counter box-->
+        <div class="vowelDiv">
+            <h3>vowel voyage.</h3>
+            <textarea id="vowelfield" rows="10" cols="50" placeholder="Enter the words you want to check for vowels."></textarea>
+            <button onclick="vowelCheck()">Count Vowels</button>
+            <p class="username">github: @arlgrthm</p>
+        </div>
+        <!--Result box-->
+        <div class="resultDiv">
+            <h2>result: </h2>
+            <p>The number of vowels in the text is/are: <span id="vowel_result">0</span></p>
+        </div>
+
+    </div>
+</body>
+</html>
